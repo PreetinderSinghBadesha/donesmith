@@ -38,7 +38,7 @@ Container craftStats(double width, double height, int completedTasks, int totalT
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(8),
                 child: LinearProgressIndicator(
-                  value: completedTasks / totalTasks,
+                  value: totalTasks > 0 ? completedTasks / totalTasks : 0,
                   backgroundColor: Colors.grey[200],
                   valueColor: AlwaysStoppedAnimation<Color>(
                     Colors.blue[600]!,

@@ -1,5 +1,5 @@
 name: donesmith
-description: "A new Flutter project."
+escription: A craftsperson's approach to task management. DoneSmith helps you organize and complete tasks with precision and elegance.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -45,6 +45,8 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
+  intl: ^0.20.2
+  shared_preferences: ^2.4.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
